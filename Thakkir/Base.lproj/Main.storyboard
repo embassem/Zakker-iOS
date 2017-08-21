@@ -146,7 +146,7 @@
                                                 <rect key="frame" x="0.0" y="2" width="600" height="190"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الفجر" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2D-wJ-rPu">
-                                                        <rect key="frame" x="543.5" y="8" width="32.5" height="26"/>
+                                                        <rect key="frame" x="535.5" y="8" width="40.5" height="26"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="26" id="hff-d6-jxE"/>
                                                         </constraints>
@@ -342,7 +342,7 @@
                                                 <rect key="frame" x="0.0" y="192" width="600" height="190"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الظهر" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BIK-bo-u9w">
-                                                        <rect key="frame" x="542.5" y="8" width="33.5" height="26"/>
+                                                        <rect key="frame" x="530" y="8" width="46" height="26"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="26" id="rpE-SU-RRk"/>
                                                         </constraints>
@@ -538,7 +538,7 @@
                                                 <rect key="frame" x="0.0" y="382" width="600" height="190"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="العصر" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4c7-jZ-9x9">
-                                                        <rect key="frame" x="537" y="8" width="39" height="26"/>
+                                                        <rect key="frame" x="531" y="8" width="45" height="26"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="26" id="nLt-Mt-zmc"/>
                                                         </constraints>
@@ -621,7 +621,7 @@
                                                             <action selector="UpdateQuran3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="clu-2r-BZ8"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbS-10-Leb">
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbS-10-Leb">
                                                         <rect key="frame" x="285" y="83" width="30" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="30" id="TRo-F7-EhB"/>
@@ -734,7 +734,7 @@
                                                 <rect key="frame" x="0.0" y="572" width="600" height="190"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="المغرب" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6py-hZ-3wk">
-                                                        <rect key="frame" x="541" y="8" width="35" height="26"/>
+                                                        <rect key="frame" x="521.5" y="8" width="54.5" height="26"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="26" id="bF6-Ac-pJF"/>
                                                         </constraints>
@@ -930,7 +930,7 @@
                                                 <rect key="frame" x="0.0" y="762" width="600" height="190"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="العشاء" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aeq-S6-eiD">
-                                                        <rect key="frame" x="537" y="8" width="39" height="26"/>
+                                                        <rect key="frame" x="523.5" y="8" width="52.5" height="26"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="26" id="Ox6-wr-JL0"/>
                                                         </constraints>
@@ -1126,7 +1126,7 @@
                                                 <rect key="frame" x="0.0" y="952" width="600" height="125"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="شروق" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U7J-qI-JfJ">
-                                                        <rect key="frame" x="541" y="8" width="35" height="26"/>
+                                                        <rect key="frame" x="532" y="8" width="44" height="26"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="26" id="lSQ-h8-civ"/>
                                                         </constraints>
@@ -1161,7 +1161,7 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="سنه" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfL-Z8-NKh">
-                                                        <rect key="frame" x="289" y="54" width="22" height="21"/>
+                                                        <rect key="frame" x="284.5" y="54" width="31.5" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="21" id="Q7R-39-MPm"/>
                                                         </constraints>
@@ -1191,7 +1191,7 @@
                                                 <rect key="frame" x="0.0" y="1327" width="600" height="125"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الشفع و الوتر" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="moQ-dx-H4a">
-                                                        <rect key="frame" x="498" y="8" width="78" height="26"/>
+                                                        <rect key="frame" x="477.5" y="8" width="98.5" height="26"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="26" id="YuS-lz-1Ir"/>
                                                         </constraints>
@@ -1226,7 +1226,7 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="سنه" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmu-tY-1n4">
-                                                        <rect key="frame" x="289" y="54" width="22" height="21"/>
+                                                        <rect key="frame" x="284.5" y="54" width="31.5" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="21" id="Fnl-nr-uv9"/>
                                                         </constraints>
@@ -1256,7 +1256,7 @@
                                                 <rect key="frame" x="0.0" y="1077" width="600" height="125"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="صلاة القيام" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buC-eW-a1l">
-                                                        <rect key="frame" x="507.5" y="8" width="68.5" height="26"/>
+                                                        <rect key="frame" x="490" y="8" width="86" height="26"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="26" id="Fdh-QL-Ozn"/>
                                                         </constraints>
@@ -1291,7 +1291,7 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="سنه" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GdP-65-3Tg">
-                                                        <rect key="frame" x="289" y="54" width="22" height="21"/>
+                                                        <rect key="frame" x="284.5" y="54" width="31.5" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="21" id="4i6-u6-2TN"/>
                                                         </constraints>
@@ -1321,7 +1321,7 @@
                                                 <rect key="frame" x="0.0" y="1202" width="600" height="125"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="صلاة التهجد" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGn-bQ-BrC">
-                                                        <rect key="frame" x="501" y="8" width="75" height="26"/>
+                                                        <rect key="frame" x="482" y="8" width="94" height="26"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="26" id="YAM-zT-Zea"/>
                                                         </constraints>
@@ -1356,7 +1356,7 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="سنه" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezu-Ir-O6w">
-                                                        <rect key="frame" x="289" y="54" width="22" height="21"/>
+                                                        <rect key="frame" x="284.5" y="54" width="31.5" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="21" id="hNH-sA-yCH"/>
                                                         </constraints>
@@ -1454,8 +1454,8 @@
                                             <action selector="togleLeftMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CS9-r5-y1n"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اليوم" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rmk-iS-SQl">
-                                        <rect key="frame" x="284.5" y="33" width="31" height="40"/>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اليوم" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rmk-iS-SQl">
+                                        <rect key="frame" x="275.5" y="33" width="49.5" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="kvy-Zz-Pqk"/>
                                         </constraints>
@@ -1613,7 +1613,7 @@
                                 <rect key="frame" x="-4" y="20" width="383" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="التقويم" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8m-a0-Dv2">
-                                        <rect key="frame" x="156.5" y="19" width="71" height="22"/>
+                                        <rect key="frame" x="169" y="18.5" width="46" height="23.5"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="GESSTwoBold-Bold" family="GE SS Two" pointSize="20"/>
                                         <color key="textColor" red="0.71764705880000002" green="0.59999999999999998" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
