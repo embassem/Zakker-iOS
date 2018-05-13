@@ -35,7 +35,6 @@
 		59961F281D07C1350021135E /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59961F271D07C1350021135E /* NSDate.swift */; };
 		599879DE1CFD99D700A2550D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 599879DD1CFD99D700A2550D /* Assets.xcassets */; };
 		599879E11CFD99D700A2550D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599879DF1CFD99D700A2550D /* LaunchScreen.storyboard */; };
-		59987A341CFDA9CC00A2550D /* ThakkirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59987A331CFDA9CC00A2550D /* ThakkirUITests.swift */; };
 		59987A7A1CFDC2CE00A2550D /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59987A711CFDC2CE00A2550D /* extension.swift */; };
 		59987A7B1CFDC2CE00A2550D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59987A721CFDC2CE00A2550D /* String.swift */; };
 		59987A7C1CFDC2CE00A2550D /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59987A731CFDC2CE00A2550D /* UIApplication.swift */; };
@@ -50,19 +49,8 @@
 		59B6ECCF1D0D4A1E0057796D /* LeftMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B6ECCE1D0D4A1E0057796D /* LeftMenuCell.swift */; };
 		59E71FFD1D01CC4500BC4935 /* AdanServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E71FFC1D01CC4500BC4935 /* AdanServices.swift */; };
 		59E720141D02048400BC4935 /* adan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59E720131D02048400BC4935 /* adan.mp3 */; };
-		5D01345BFECCBC0D7EBE5DCA /* Pods_ThakkirUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F603D11FA2F78B5612597F /* Pods_ThakkirUITests.framework */; };
 		63AFCB1F58FB6F8095D0654A /* Pods_Thakkir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAF079B56B9567BDDDF06DE /* Pods_Thakkir.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		59987A361CFDA9CC00A2550D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 599879CB1CFD99D700A2550D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 599879D21CFD99D700A2550D;
-			remoteInfo = Thakkir;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2558E9979C8B81ACFB1B6EE2 /* Pods-ThakkirUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThakkirUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThakkirUITests/Pods-ThakkirUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,7 +86,6 @@
 		599879DD1CFD99D700A2550D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		599879E01CFD99D700A2550D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		599879E21CFD99D700A2550D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59987A311CFDA9CC00A2550D /* ThakkirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThakkirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59987A331CFDA9CC00A2550D /* ThakkirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThakkirUITests.swift; sourceTree = "<group>"; };
 		59987A351CFDA9CC00A2550D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59987A711CFDC2CE00A2550D /* extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = extension.swift; path = Classes/Extentions/extension.swift; sourceTree = "<group>"; };
@@ -115,7 +102,6 @@
 		59B6ECCE1D0D4A1E0057796D /* LeftMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeftMenuCell.swift; path = Controllers/LeftMenuCell.swift; sourceTree = "<group>"; };
 		59E71FFC1D01CC4500BC4935 /* AdanServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdanServices.swift; sourceTree = "<group>"; };
 		59E720131D02048400BC4935 /* adan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adan.mp3; sourceTree = "<group>"; };
-		59E720171D0204A600BC4935 /* Thakkir.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Thakkir.entitlements; sourceTree = "<group>"; };
 		90F603D11FA2F78B5612597F /* Pods_ThakkirUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThakkirUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E114C46A6D0BE03D13FFB977 /* Pods-Thakkir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thakkir.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thakkir/Pods-Thakkir.release.xcconfig"; sourceTree = "<group>"; };
 		EFAF079B56B9567BDDDF06DE /* Pods_Thakkir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thakkir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,14 +114,6 @@
 			files = (
 				59B647F91EDA674A001C9FE2 /* UserNotifications.framework in Frameworks */,
 				63AFCB1F58FB6F8095D0654A /* Pods_Thakkir.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		59987A2E1CFDA9CC00A2550D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D01345BFECCBC0D7EBE5DCA /* Pods_ThakkirUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				599879D31CFD99D700A2550D /* Thakkir.app */,
-				59987A311CFDA9CC00A2550D /* ThakkirUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,7 +173,6 @@
 		599879D51CFD99D700A2550D /* Thakkir */ = {
 			isa = PBXGroup;
 			children = (
-				59E720171D0204A600BC4935 /* Thakkir.entitlements */,
 				59987A5C1CFDB80500A2550D /* Classes */,
 				599879EA1CFD9A0600A2550D /* Main */,
 				599879EB1CFD9A1100A2550D /* Controllers */,
@@ -328,7 +304,6 @@
 				599879D01CFD99D700A2550D /* Frameworks */,
 				599879D11CFD99D700A2550D /* Resources */,
 				F6640E65E246090D1A958155 /* [CP] Embed Pods Frameworks */,
-				FD591F1EB5F23EC109BEB394 /* [CP] Copy Pods Resources */,
 				59B647F51EDA5698001C9FE2 /* Fabric Run Script */,
 			);
 			buildRules = (
@@ -340,27 +315,6 @@
 			productReference = 599879D31CFD99D700A2550D /* Thakkir.app */;
 			productType = "com.apple.product-type.application";
 		};
-		59987A301CFDA9CC00A2550D /* ThakkirUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 59987A381CFDA9CC00A2550D /* Build configuration list for PBXNativeTarget "ThakkirUITests" */;
-			buildPhases = (
-				EE1083BB47FDA133FFBBF2EB /* [CP] Check Pods Manifest.lock */,
-				59987A2D1CFDA9CC00A2550D /* Sources */,
-				59987A2E1CFDA9CC00A2550D /* Frameworks */,
-				59987A2F1CFDA9CC00A2550D /* Resources */,
-				BD217A91CA1E7C03AA80ACE7 /* [CP] Embed Pods Frameworks */,
-				AEC3AA76577CC320E24F6467 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				59987A371CFDA9CC00A2550D /* PBXTargetDependency */,
-			);
-			name = ThakkirUITests;
-			productName = ThakkirUITests;
-			productReference = 59987A311CFDA9CC00A2550D /* ThakkirUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -368,14 +322,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Bassem Abbas";
 				TargetAttributes = {
 					599879D21CFD99D700A2550D = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 3HW52YW266;
-						LastSwiftMigration = 0830;
-						ProvisioningStyle = Manual;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -387,11 +341,6 @@
 								enabled = 0;
 							};
 						};
-					};
-					59987A301CFDA9CC00A2550D = {
-						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0830;
-						TestTargetID = 599879D21CFD99D700A2550D;
 					};
 				};
 			};
@@ -409,7 +358,6 @@
 			projectRoot = "";
 			targets = (
 				599879D21CFD99D700A2550D /* Thakkir */,
-				59987A301CFDA9CC00A2550D /* ThakkirUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -436,13 +384,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59987A2F1CFDA9CC00A2550D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -460,60 +401,34 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\" 3932d827fcd012c65d446b989a01cee8d002f8da f185d48779c4b62ce4920fcd0369ca4fbc9c6ac40d27fca6984bff689f6714d9 ";
 		};
-		AEC3AA76577CC320E24F6467 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThakkirUITests/Pods-ThakkirUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BD217A91CA1E7C03AA80ACE7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThakkirUITests/Pods-ThakkirUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EE1083BB47FDA133FFBBF2EB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		F6640E65E246090D1A958155 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Thakkir/Pods-Thakkir-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFDateHelper/AFDateHelper.framework",
+				"${BUILT_PRODUCTS_DIR}/Adhan/Adhan.framework",
+				"${BUILT_PRODUCTS_DIR}/AsyncSwift/Async.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/PageMenu/PageMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SlideMenuControllerSwift/SlideMenuControllerSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFDateHelper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Adhan.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Async.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PageMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SlideMenuControllerSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -526,28 +441,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thakkir-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FD591F1EB5F23EC109BEB394 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thakkir/Pods-Thakkir-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -587,23 +490,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59987A2D1CFDA9CC00A2550D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				59987A341CFDA9CC00A2550D /* ThakkirUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		59987A371CFDA9CC00A2550D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 599879D21CFD99D700A2550D /* Thakkir */;
-			targetProxy = 59987A361CFDA9CC00A2550D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		59449F781D01C098009FDDE8 /* DataTableViewCell.xib */ = {
@@ -666,13 +553,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
@@ -715,13 +612,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
@@ -743,6 +650,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "7ee71399-1ecb-48b4-85d0-b16e411896a7";
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -752,12 +660,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2CB2F28A004DBC5000F6DA71 /* Pods-Thakkir.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Thakkir/Thakkir.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 3HW52YW266;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -765,11 +672,12 @@
 				);
 				INFOPLIST_FILE = Thakkir/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.EMBassem.zakker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.promersolutions.zakker.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e7cc46f2-be86-4ef8-8e8a-e8b2038fa8ad";
-				PROVISIONING_PROFILE_SPECIFIER = "Prod-Zakker";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -777,12 +685,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E114C46A6D0BE03D13FFB977 /* Pods-Thakkir.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Thakkir/Thakkir.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 3HW52YW266;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -790,37 +697,12 @@
 				);
 				INFOPLIST_FILE = Thakkir/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.EMBassem.zakker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.promersolutions.zakker.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e7cc46f2-be86-4ef8-8e8a-e8b2038fa8ad";
-				PROVISIONING_PROFILE_SPECIFIER = "Prod-Zakker";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		59987A391CFDA9CC00A2550D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54E2FFF72EEDAB889A88FAF6 /* Pods-ThakkirUITests.debug.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = ThakkirUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.EMBassem.ios.ThakkirUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Thakkir;
-			};
-			name = Debug;
-		};
-		59987A3A1CFDA9CC00A2550D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2558E9979C8B81ACFB1B6EE2 /* Pods-ThakkirUITests.release.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = ThakkirUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.EMBassem.ios.ThakkirUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Thakkir;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -841,15 +723,6 @@
 			buildConfigurations = (
 				599879E61CFD99D700A2550D /* Debug */,
 				599879E71CFD99D700A2550D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		59987A381CFDA9CC00A2550D /* Build configuration list for PBXNativeTarget "ThakkirUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				59987A391CFDA9CC00A2550D /* Debug */,
-				59987A3A1CFDA9CC00A2550D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         Fabric.with([Crashlytics.self])
         FIRApp.configure()
-        configerRemoteNotification(application: application)
+        configerRemoteNotification(application)
 
         
         //Mark:- Implement Slide Menu Extention
@@ -160,7 +160,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     // [END receive_message]
     // [START refresh_token]
-    func tokenRefreshNotification(_ notification: Notification) {
+    @objc func tokenRefreshNotification(_ notification: Notification) {
         if let refreshedToken = FIRInstanceID.instanceID().token() {
             print("InstanceID token: \(refreshedToken)")
         }
@@ -225,7 +225,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     
-    func configerRemoteNotification(application: UIApplication) {
+    func configerRemoteNotification(_ application: UIApplication) {
         
         if #available(iOS 10.0, *) {
             // For iOS 10 display notification (sent via APNS)

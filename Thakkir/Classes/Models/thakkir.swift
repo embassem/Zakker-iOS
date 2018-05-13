@@ -5,52 +5,52 @@ import RealmSwift
 import Foundation
 
 class Thakkir : Object{
-    dynamic var fajrTime : Date  = Date()
-    dynamic var sunriseTime : Date = Date()
-    dynamic var dhuhrTime : Date = Date()
-    dynamic var asrTime : Date =  Date()
-    dynamic var maghribTime : Date =  Date()
-    dynamic var ishaTime : Date =  Date()
-    dynamic var fajrPray : Bool = false
-    dynamic var dhuhrPray : Bool = false
-    dynamic var asrPray : Bool = false
-    dynamic var maghribPray : Bool = false
-    dynamic var ishaPray : Bool = false
-    dynamic var fajrSona : Bool = false
-    dynamic var dhuhrSona : Bool = false
-    dynamic var asrSona : Bool = false
-    dynamic var maghribSona : Bool = false
-    dynamic var ishaSona : Bool = false
-    dynamic var sunriseSona : Bool = false
-    dynamic var fajrGamaa : Bool = false
-    dynamic var dhuhrGamaa : Bool = false
-    dynamic var asrGamaa : Bool = false
-    dynamic var maghribGamaa : Bool = false
-    dynamic var ishaGamaa : Bool = false
-    dynamic var fajrTasbeeh : Bool = false
-    dynamic var dhuhrTasbeeh : Bool = false
-    dynamic var asrTasbeeh : Bool = false
-    dynamic var maghribTasbeeh : Bool = false
-    dynamic var ishaTasbeeh : Bool = false
-    dynamic var salatQeyam : Bool = false
-    dynamic var salatTahagod : Bool = false
-    dynamic var salatNehayetElSalat: Bool = false
+    @objc dynamic var fajrTime : Date  = Date()
+    @objc dynamic var sunriseTime : Date = Date()
+    @objc dynamic var dhuhrTime : Date = Date()
+    @objc dynamic var asrTime : Date =  Date()
+    @objc dynamic var maghribTime : Date =  Date()
+    @objc dynamic var ishaTime : Date =  Date()
+    @objc dynamic var fajrPray : Bool = false
+    @objc dynamic var dhuhrPray : Bool = false
+    @objc dynamic var asrPray : Bool = false
+    @objc dynamic var maghribPray : Bool = false
+    @objc dynamic var ishaPray : Bool = false
+    @objc dynamic var fajrSona : Bool = false
+    @objc dynamic var dhuhrSona : Bool = false
+    @objc dynamic var asrSona : Bool = false
+    @objc dynamic var maghribSona : Bool = false
+    @objc dynamic var ishaSona : Bool = false
+    @objc dynamic var sunriseSona : Bool = false
+    @objc dynamic var fajrGamaa : Bool = false
+    @objc dynamic var dhuhrGamaa : Bool = false
+    @objc dynamic var asrGamaa : Bool = false
+    @objc dynamic var maghribGamaa : Bool = false
+    @objc dynamic var ishaGamaa : Bool = false
+    @objc dynamic var fajrTasbeeh : Bool = false
+    @objc dynamic var dhuhrTasbeeh : Bool = false
+    @objc dynamic var asrTasbeeh : Bool = false
+    @objc dynamic var maghribTasbeeh : Bool = false
+    @objc dynamic var ishaTasbeeh : Bool = false
+    @objc dynamic var salatQeyam : Bool = false
+    @objc dynamic var salatTahagod : Bool = false
+    @objc dynamic var salatNehayetElSalat: Bool = false
     
     
-    dynamic var fajrEstagfar : Bool = false
-    dynamic var dhuhrEstagfar : Bool = false
-    dynamic var asrEstagfar: Bool = false
-    dynamic var maghribEstagfar : Bool = false
-    dynamic var ishaEstagfar : Bool = false
+    @objc dynamic var fajrEstagfar : Bool = false
+    @objc dynamic var dhuhrEstagfar : Bool = false
+    @objc dynamic var asrEstagfar: Bool = false
+    @objc dynamic var maghribEstagfar : Bool = false
+    @objc dynamic var ishaEstagfar : Bool = false
     
     
-    dynamic var Quran1 : Bool = false
-    dynamic var Quran2 : Bool = false
-    dynamic var Quran3 : Bool = false
-    dynamic var Quran4 : Bool = false
-    dynamic var Quran5 : Bool = false
-    dynamic var DayMelady : Date  =  Date()
-    dynamic var id : Int = 0
+    @objc dynamic var Quran1 : Bool = false
+    @objc dynamic var Quran2 : Bool = false
+    @objc dynamic var Quran3 : Bool = false
+    @objc dynamic var Quran4 : Bool = false
+    @objc dynamic var Quran5 : Bool = false
+    @objc dynamic var DayMelady : Date  =  Date()
+    @objc dynamic var id : Int = 0
     //
     //	override class func primaryKey() -> String
     //	{

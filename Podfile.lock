@@ -14,9 +14,9 @@ PODS:
   - FirebaseAnalytics (3.9.0):
     - FirebaseCore (~> 3.6)
     - FirebaseInstanceID (~> 1.0)
-    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
   - FirebaseCore (3.6.0):
-    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
   - FirebaseInstanceID (1.0.10):
     - FirebaseCore (~> 3.6)
   - FirebaseMessaging (1.2.3):
@@ -27,15 +27,15 @@ PODS:
   - GoogleToolboxForMac/Defines (2.1.1)
   - GoogleToolboxForMac/Logger (2.1.1):
     - GoogleToolboxForMac/Defines (= 2.1.1)
-  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+  - "GoogleToolboxForMac/NSData+zlib (2.1.1)":
     - GoogleToolboxForMac/Defines (= 2.1.1)
   - PageMenu (2.0.0)
   - Protobuf (3.3.0)
-  - Realm (2.7.0):
-    - Realm/Headers (= 2.7.0)
-  - Realm/Headers (2.7.0)
-  - RealmSwift (2.7.0):
-    - Realm (= 2.7.0)
+  - Realm (3.5.0):
+    - Realm/Headers (= 3.5.0)
+  - Realm/Headers (3.5.0)
+  - RealmSwift (3.5.0):
+    - Realm (= 3.5.0)
   - SlideMenuControllerSwift (3.0.1)
 
 DEPENDENCIES:
@@ -49,6 +49,25 @@ DEPENDENCIES:
   - PageMenu
   - RealmSwift
   - SlideMenuControllerSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Adhan
+    - AFDateHelper
+    - AsyncSwift
+    - Crashlytics
+    - Fabric
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GoogleToolboxForMac
+    - PageMenu
+    - Protobuf
+    - Realm
+    - RealmSwift
+    - SlideMenuControllerSwift
 
 SPEC CHECKSUMS:
   Adhan: 05c1a5fb29fa32aafc66b49c67b44e2e40942c54
@@ -64,10 +83,10 @@ SPEC CHECKSUMS:
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
   PageMenu: 9c38fd7e0d9ef4b1408320f55bb907bbc0e538dc
   Protobuf: d582fecf68201eac3d79ed61369ef45734394b9c
-  Realm: 07e5d3a9e0e41d65fd5f9f05150ed6295d0f093b
-  RealmSwift: 6d06425d3900c86473c4f323bf6949b43fca22bc
+  Realm: 0378021c424e4e2bd6a0e63b27881e929d9b9ad1
+  RealmSwift: 3322562622fda2ad596985ead4d8d8be30cf838c
   SlideMenuControllerSwift: 9a163b16d54afab734add42858cba7ef7c307755
 
-PODFILE CHECKSUM: 774a9909d9e0bb992057ea99ebf84bdd029df93f
+PODFILE CHECKSUM: eadcdc8cd43f5927ebea355e70cc93fb2cfcf2e4
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.5.2

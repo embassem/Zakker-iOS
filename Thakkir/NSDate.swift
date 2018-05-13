@@ -25,7 +25,7 @@ extension Date{
         
     }
     
-    func dateByAddingDay(days:Int) -> Date{
+    func dateByAddingDay(_ days:Int) -> Date{
         let dateComponunt = DateComponents(day:days);
 
         

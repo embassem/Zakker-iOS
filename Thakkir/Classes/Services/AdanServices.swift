@@ -27,7 +27,7 @@ class AdanServices{
         
         
         let day :Date =  normalCalender.startOfDay(for: date)
-        //        let startDate :NSDate =  day.dateByAddingSeconds(NSTimeZone.localTimeZone().secondsFromGMT)
+        //        let startDate :NSDate =  day.dateByAddingSeconds(NSTimeZone.localTimeZone().secondsFromGMT)NSCalendar.Unit(rawValue: 0)
         let date = (normalCalender as NSCalendar).components(NSCalendar.Unit(rawValue: UInt.max), from: day)
         
         let islamicCalender = Calendar(identifier: Calendar.Identifier.islamicUmmAlQura);
@@ -86,7 +86,7 @@ class AdanServices{
             
             for index in 0...6 {
                 print(index)
-                let calculatedDate =   date.dateByAddingDay(days: index);
+                let calculatedDate =   date.dateByAddingDay(index);
                 print (calculatedDate)
                 
                 
