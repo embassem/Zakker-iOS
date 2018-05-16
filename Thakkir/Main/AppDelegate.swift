@@ -31,7 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Fabric.sharedSDK().debug = true
 
         Fabric.with([Crashlytics.self])
-        FIRApp.configure()
+        FirebaseApp.configure()
         configerRemoteNotification(application)
 
         
@@ -72,7 +72,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didReceive notification: UILocalNotification) {
         
         
-        let userInfo = notification.userInfo;
+        _ = notification.userInfo;
 //        let type = userInfo!["Type"] as! Int
 //        switch type {
 //        case 0:
@@ -161,7 +161,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // [END receive_message]
     // [START refresh_token]
     @objc func tokenRefreshNotification(_ notification: Notification) {
-        if let refreshedToken = FIRInstanceID.instanceID().token() {
+        if let refreshedToken = InstanceID.instanceID().token() {
             print("InstanceID token: \(refreshedToken)")
         }
         
@@ -174,18 +174,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // [START connect_to_fcm]
     func connectToFcm() {
         // Won't connect since there is no token
-        guard FIRInstanceID.instanceID().token() != nil else {
+        guard InstanceID.instanceID().token() != nil else {
             return
         }
         
         // Disconnect previous FCM connection if it exists.
-        FIRMessaging.messaging().disconnect()
+        Messaging.messaging().disconnect()
         
-        FIRMessaging.messaging().connect { (error) in
+        Messaging.messaging().connect { (error) in
             if error != nil {
                 print("Unable to connect with FCM. \(error?.localizedDescription ?? "")")
             } else {
-                print("Connected to FCM with Token : \(FIRInstanceID.instanceID().token()).")
+                print("Connected to FCM with Token : \(InstanceID.instanceID().token()).")
             }
         }
         
@@ -203,7 +203,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("APNs token retrieved: \(deviceToken.base64EncodedString())")
         
         // With swizzling disabled you must set the APNs token here.
-        FIRInstanceID.instanceID().setAPNSToken(deviceToken, type: FIRInstanceIDAPNSTokenType.prod)
+        
     }
     
     
@@ -220,7 +220,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
         
-        FIRMessaging.messaging().disconnect()
+        Messaging.messaging().disconnect()
         print("Disconnected from FCM.")
     }
 
@@ -237,7 +237,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 completionHandler: { _, _ in })
             
             // For iOS 10 data message (sent via FCM)
-            FIRMessaging.messaging().remoteMessageDelegate = self
+          
             
         } else {
             let settings: UIUserNotificationSettings =
@@ -249,10 +249,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // [START add_token_refresh_observer]
         // Add observer for InstanceID token refresh callback.
-        NotificationCenter.default.addObserver(self,
-                                               selector: #selector(self.tokenRefreshNotification),
-                                               name: .firInstanceIDTokenRefresh,
-                                               object: nil)
+       
         // [END add_token_refresh_observer]
         
     }
@@ -310,7 +307,7 @@ extension AppDelegate{
         
         // Now that we've told Realm how to handle the schema change, opening the file
         // will automatically perform the migration
-        let realm = try! Realm()
+        _ = try! Realm()
     }
     
     fileprivate func registerUserNotification(){
@@ -381,9 +378,9 @@ extension AppDelegate : UNUserNotificationCenterDelegate {
 }
 // [END ios_10_message_handling]
 // [START ios_10_data_message_handling]
-extension AppDelegate : FIRMessagingDelegate {
+extension AppDelegate : MessagingDelegate {
     // Receive data message on iOS 10 devices while app is in the foreground.
-    func applicationReceivedRemoteMessage(_ remoteMessage: FIRMessagingRemoteMessage) {
+    func applicationReceivedRemoteMessage(_ remoteMessage: MessagingRemoteMessage) {
         print("remoteMessage FCM : \(remoteMessage.appData)")
     }
 }

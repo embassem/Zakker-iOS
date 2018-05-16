@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1857988220A9AA25002EEDDF /* TimeLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857987920A9AA25002EEDDF /* TimeLineTableViewCell.swift */; };
+		1857988320A9AA25002EEDDF /* TimelinePresenterProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857987B20A9AA25002EEDDF /* TimelinePresenterProtocal.swift */; };
+		1857988420A9AA25002EEDDF /* TimelinePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857987C20A9AA25002EEDDF /* TimelinePresenter.swift */; };
+		1857988520A9AA25002EEDDF /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857987D20A9AA25002EEDDF /* TimelineViewController.swift */; };
+		1857988620A9AA25002EEDDF /* TimelineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857987E20A9AA25002EEDDF /* TimelineCell.swift */; };
+		1857988720A9AA25002EEDDF /* TimelineViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857988020A9AA25002EEDDF /* TimelineViewProtocol.swift */; };
+		1857988820A9AA25002EEDDF /* oldTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857988120A9AA25002EEDDF /* oldTimelineViewController.swift */; };
+		1857989620A9AA3F002EEDDF /* SharedEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857988A20A9AA3F002EEDDF /* SharedEnum.swift */; };
+		1857989720A9AA3F002EEDDF /* Helper+FirstLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857988B20A9AA3F002EEDDF /* Helper+FirstLaunch.swift */; };
+		1857989820A9AA3F002EEDDF /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857988C20A9AA3F002EEDDF /* Shared.swift */; };
+		1857989920A9AA3F002EEDDF /* Helper+Authorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857988D20A9AA3F002EEDDF /* Helper+Authorize.swift */; };
+		1857989A20A9AA3F002EEDDF /* Helper+Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857988E20A9AA3F002EEDDF /* Helper+Images.swift */; };
+		1857989B20A9AA3F002EEDDF /* Helper+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857988F20A9AA3F002EEDDF /* Helper+Date.swift */; };
+		1857989C20A9AA3F002EEDDF /* Helper+DynamicLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857989020A9AA3F002EEDDF /* Helper+DynamicLink.swift */; };
+		1857989D20A9AA3F002EEDDF /* Helper+Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857989120A9AA3F002EEDDF /* Helper+Localize.swift */; };
+		1857989E20A9AA3F002EEDDF /* Helper+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857989220A9AA3F002EEDDF /* Helper+Config.swift */; };
+		1857989F20A9AA3F002EEDDF /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857989320A9AA3F002EEDDF /* Helper.swift */; };
+		185798A020A9AA3F002EEDDF /* Helper+Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857989420A9AA3F002EEDDF /* Helper+Analytics.swift */; };
+		185798A120A9AA3F002EEDDF /* Helper+Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857989520A9AA3F002EEDDF /* Helper+Logger.swift */; };
 		59086FDE1D0BFC1A001E3BAB /* GESSTwoBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59086FDB1D0BFC1A001E3BAB /* GESSTwoBold.otf */; };
 		59086FDF1D0BFC1A001E3BAB /* GESSTwoLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59086FDC1D0BFC1A001E3BAB /* GESSTwoLight.otf */; };
 		59086FE01D0BFC1A001E3BAB /* GESSTwoMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59086FDD1D0BFC1A001E3BAB /* GESSTwoMedium.otf */; };
@@ -53,6 +72,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1857987920A9AA25002EEDDF /* TimeLineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineTableViewCell.swift; sourceTree = "<group>"; };
+		1857987B20A9AA25002EEDDF /* TimelinePresenterProtocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelinePresenterProtocal.swift; sourceTree = "<group>"; };
+		1857987C20A9AA25002EEDDF /* TimelinePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelinePresenter.swift; sourceTree = "<group>"; };
+		1857987D20A9AA25002EEDDF /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		1857987E20A9AA25002EEDDF /* TimelineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineCell.swift; sourceTree = "<group>"; };
+		1857988020A9AA25002EEDDF /* TimelineViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewProtocol.swift; sourceTree = "<group>"; };
+		1857988120A9AA25002EEDDF /* oldTimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oldTimelineViewController.swift; sourceTree = "<group>"; };
+		1857988A20A9AA3F002EEDDF /* SharedEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedEnum.swift; sourceTree = "<group>"; };
+		1857988B20A9AA3F002EEDDF /* Helper+FirstLaunch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Helper+FirstLaunch.swift"; sourceTree = "<group>"; };
+		1857988C20A9AA3F002EEDDF /* Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		1857988D20A9AA3F002EEDDF /* Helper+Authorize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Helper+Authorize.swift"; sourceTree = "<group>"; };
+		1857988E20A9AA3F002EEDDF /* Helper+Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Helper+Images.swift"; sourceTree = "<group>"; };
+		1857988F20A9AA3F002EEDDF /* Helper+Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Helper+Date.swift"; sourceTree = "<group>"; };
+		1857989020A9AA3F002EEDDF /* Helper+DynamicLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Helper+DynamicLink.swift"; sourceTree = "<group>"; };
+		1857989120A9AA3F002EEDDF /* Helper+Localize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Helper+Localize.swift"; sourceTree = "<group>"; };
+		1857989220A9AA3F002EEDDF /* Helper+Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Helper+Config.swift"; sourceTree = "<group>"; };
+		1857989320A9AA3F002EEDDF /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		1857989420A9AA3F002EEDDF /* Helper+Analytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Helper+Analytics.swift"; sourceTree = "<group>"; };
+		1857989520A9AA3F002EEDDF /* Helper+Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Helper+Logger.swift"; sourceTree = "<group>"; };
 		2558E9979C8B81ACFB1B6EE2 /* Pods-ThakkirUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThakkirUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThakkirUITests/Pods-ThakkirUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2CB2F28A004DBC5000F6DA71 /* Pods-Thakkir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thakkir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thakkir/Pods-Thakkir.debug.xcconfig"; sourceTree = "<group>"; };
 		54E2FFF72EEDAB889A88FAF6 /* Pods-ThakkirUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThakkirUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThakkirUITests/Pods-ThakkirUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +168,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1857987820A9AA25002EEDDF /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				1857987920A9AA25002EEDDF /* TimeLineTableViewCell.swift */,
+				1857987A20A9AA25002EEDDF /* Presenter */,
+				1857987D20A9AA25002EEDDF /* TimelineViewController.swift */,
+				1857987E20A9AA25002EEDDF /* TimelineCell.swift */,
+				1857987F20A9AA25002EEDDF /* View */,
+				1857988120A9AA25002EEDDF /* oldTimelineViewController.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		1857987A20A9AA25002EEDDF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1857987B20A9AA25002EEDDF /* TimelinePresenterProtocal.swift */,
+				1857987C20A9AA25002EEDDF /* TimelinePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1857987F20A9AA25002EEDDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1857988020A9AA25002EEDDF /* TimelineViewProtocol.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1857988920A9AA3F002EEDDF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1857988A20A9AA3F002EEDDF /* SharedEnum.swift */,
+				1857988B20A9AA3F002EEDDF /* Helper+FirstLaunch.swift */,
+				1857988C20A9AA3F002EEDDF /* Shared.swift */,
+				1857988D20A9AA3F002EEDDF /* Helper+Authorize.swift */,
+				1857988E20A9AA3F002EEDDF /* Helper+Images.swift */,
+				1857988F20A9AA3F002EEDDF /* Helper+Date.swift */,
+				1857989020A9AA3F002EEDDF /* Helper+DynamicLink.swift */,
+				1857989120A9AA3F002EEDDF /* Helper+Localize.swift */,
+				1857989220A9AA3F002EEDDF /* Helper+Config.swift */,
+				1857989320A9AA3F002EEDDF /* Helper.swift */,
+				1857989420A9AA3F002EEDDF /* Helper+Analytics.swift */,
+				1857989520A9AA3F002EEDDF /* Helper+Logger.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		59086FDA1D0BFC1A001E3BAB /* Font */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +260,7 @@
 		599879D51CFD99D700A2550D /* Thakkir */ = {
 			isa = PBXGroup;
 			children = (
+				1857988920A9AA3F002EEDDF /* Helpers */,
 				59987A5C1CFDB80500A2550D /* Classes */,
 				599879EA1CFD9A0600A2550D /* Main */,
 				599879EB1CFD9A1100A2550D /* Controllers */,
@@ -218,6 +306,7 @@
 		599879EB1CFD9A1100A2550D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1857987820A9AA25002EEDDF /* Timeline */,
 				59449F5E1D01BFA2009FDDE8 /* BaseTableViewCell.swift */,
 				59449F5F1D01BFA2009FDDE8 /* DataTableViewCell.swift */,
 				59449F601D01BFA2009FDDE8 /* ExSlideMenuController.swift */,
@@ -410,24 +499,38 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Thakkir/Pods-Thakkir-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFDateHelper/AFDateHelper.framework",
 				"${BUILT_PRODUCTS_DIR}/Adhan/Adhan.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/PageMenu/PageMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SlideMenuControllerSwift/SlideMenuControllerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFDateHelper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Adhan.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PageMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SlideMenuControllerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,32 +563,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1857989D20A9AA3F002EEDDF /* Helper+Localize.swift in Sources */,
 				59449F771D01BFB6009FDDE8 /* AppDelegate.swift in Sources */,
 				59987A7C1CFDC2CE00A2550D /* UIApplication.swift in Sources */,
+				185798A020A9AA3F002EEDDF /* Helper+Analytics.swift in Sources */,
 				59B6ECCF1D0D4A1E0057796D /* LeftMenuCell.swift in Sources */,
 				595D40CE1D0D90A500CBE04C /* dateTableViewCell.swift in Sources */,
+				1857988620A9AA25002EEDDF /* TimelineCell.swift in Sources */,
+				1857989820A9AA3F002EEDDF /* Shared.swift in Sources */,
 				59449F891D01C2B8009FDDE8 /* thakkir.swift in Sources */,
 				59987A7F1CFDC2CE00A2550D /* UIImageView.swift in Sources */,
 				59987A821CFDC2CE00A2550D /* UIViewController.swift in Sources */,
 				59E71FFD1D01CC4500BC4935 /* AdanServices.swift in Sources */,
+				1857989F20A9AA3F002EEDDF /* Helper.swift in Sources */,
 				59449F701D01BFA2009FDDE8 /* LeftViewController.swift in Sources */,
+				1857988320A9AA25002EEDDF /* TimelinePresenterProtocal.swift in Sources */,
 				59449F6C1D01BFA2009FDDE8 /* ExSlideMenuController.swift in Sources */,
 				59987A801CFDC2CE00A2550D /* UITableViewExtension.swift in Sources */,
 				59961F281D07C1350021135E /* NSDate.swift in Sources */,
+				1857988220A9AA25002EEDDF /* TimeLineTableViewCell.swift in Sources */,
 				59449F711D01BFA2009FDDE8 /* MainViewController.swift in Sources */,
 				59449F6D1D01BFA2009FDDE8 /* GoViewController.swift in Sources */,
 				59449F6E1D01BFA2009FDDE8 /* ImageHeaderView.swift in Sources */,
+				1857988720A9AA25002EEDDF /* TimelineViewProtocol.swift in Sources */,
 				59449F6B1D01BFA2009FDDE8 /* DataTableViewCell.swift in Sources */,
+				1857989A20A9AA3F002EEDDF /* Helper+Images.swift in Sources */,
+				185798A120A9AA3F002EEDDF /* Helper+Logger.swift in Sources */,
 				59987A7B1CFDC2CE00A2550D /* String.swift in Sources */,
 				59449F6F1D01BFA2009FDDE8 /* JavaViewController.swift in Sources */,
+				1857988520A9AA25002EEDDF /* TimelineViewController.swift in Sources */,
 				59449F731D01BFA2009FDDE8 /* RightViewController.swift in Sources */,
+				1857989920A9AA3F002EEDDF /* Helper+Authorize.swift in Sources */,
 				59987A7A1CFDC2CE00A2550D /* extension.swift in Sources */,
 				59987A7D1CFDC2CE00A2550D /* UIColor.swift in Sources */,
 				59449F751D01BFA2009FDDE8 /* SwiftViewController.swift in Sources */,
 				59449F721D01BFA2009FDDE8 /* NonMenuController.swift in Sources */,
 				59987A811CFDC2CE00A2550D /* UIView.swift in Sources */,
+				1857989E20A9AA3F002EEDDF /* Helper+Config.swift in Sources */,
+				1857989C20A9AA3F002EEDDF /* Helper+DynamicLink.swift in Sources */,
+				1857989720A9AA3F002EEDDF /* Helper+FirstLaunch.swift in Sources */,
+				1857988820A9AA25002EEDDF /* oldTimelineViewController.swift in Sources */,
 				59449F6A1D01BFA2009FDDE8 /* BaseTableViewCell.swift in Sources */,
+				1857988420A9AA25002EEDDF /* TimelinePresenter.swift in Sources */,
 				59987A7E1CFDC2CE00A2550D /* UIImage.swift in Sources */,
+				1857989B20A9AA3F002EEDDF /* Helper+Date.swift in Sources */,
+				1857989620A9AA3F002EEDDF /* SharedEnum.swift in Sources */,
 				59449F741D01BFA2009FDDE8 /* SubContentsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

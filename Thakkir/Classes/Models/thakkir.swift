@@ -69,7 +69,7 @@ class Thakkir : Object{
     //Incrementa ID
     func IncrementaID() -> Int{
         let realm = try! Realm()
-        let RetNext = Array(realm.objects(Thakkir).sorted(byKeyPath: "id"))
+        let RetNext = Array(realm.objects(Thakkir.self).sorted(byKeyPath: "id"))
         let last = RetNext.last
         if RetNext.count > 0 {
             let valor = (last as AnyObject).value(forKey: "id") as? Int
